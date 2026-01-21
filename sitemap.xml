@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Főoldal (Magyar) -->
+    <url>
+        <loc>https://stmanagement.hu/</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/index_angol.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://stmanagement.hu/"/>
+    </url>
+    
+    <!-- Főoldal (Angol) -->
+    <url>
+        <loc>https://stmanagement.hu/index_angol.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/index_angol.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://stmanagement.hu/"/>
+    </url>
+    
+    <!-- Ingatlan kezelés (Magyar) -->
+    <url>
+        <loc>https://stmanagement.hu/kezeles.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/kezeles.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/kezeles_angol.html"/>
+    </url>
+    
+    <!-- Ingatlan kezelés (Angol) -->
+    <url>
+        <loc>https://stmanagement.hu/kezeles_angol.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/kezeles.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/kezeles_angol.html"/>
+    </url>
+    
+    <!-- Kivitelezés (Magyar) -->
+    <url>
+        <loc>https://stmanagement.hu/kivitelezes.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/kivitelezes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/kivitelezes_angol.html"/>
+    </url>
+    
+    <!-- Kivitelezés (Angol) -->
+    <url>
+        <loc>https://stmanagement.hu/kivitelezes_angol.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/kivitelezes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/kivitelezes_angol.html"/>
+    </url>
+    
+    <!-- Okosotthon (Magyar) -->
+    <url>
+        <loc>https://stmanagement.hu/okosotthon.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/okosotthon.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/okosotthon_angol.html"/>
+    </url>
+    
+    <!-- Okosotthon (Angol) -->
+    <url>
+        <loc>https://stmanagement.hu/okosotthon_angol.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/okosotthon.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/okosotthon_angol.html"/>
+    </url>
+    
+    <!-- Takarítás (Magyar) -->
+    <url>
+        <loc>https://stmanagement.hu/takaritas.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/takaritas.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/takaritas_angol.html"/>
+    </url>
+    
+    <!-- Takarítás (Angol) -->
+    <url>
+        <loc>https://stmanagement.hu/takaritas_angol.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/takaritas.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/takaritas_angol.html"/>
+    </url>
+    
+    <!-- Tanácsadás (Magyar) -->
+    <url>
+        <loc>https://stmanagement.hu/tanacsadas.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/tanacsadas.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/tanacsadas_angol.html"/>
+    </url>
+    
+    <!-- Tanácsadás (Angol) -->
+    <url>
+        <loc>https://stmanagement.hu/tanacsadas_angol.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://stmanagement.hu/tanacsadas.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://stmanagement.hu/tanacsadas_angol.html"/>
+    </url>
+    
+</urlset>
