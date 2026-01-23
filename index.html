@@ -47,7 +47,6 @@
 		  "alternateName": "ST Management",
 		  "url": "https://stmanagement.hu/",
 		  "logo": "https://stmanagement.hu/logo_black.PNG",
-		  "image": "https://stmanagement.hu/og-cover-1200x630.jpg",
 		  "contactPoint": [
 			{
 			  "@type": "ContactPoint",
@@ -67,10 +66,8 @@
 		  "description": "Professzionális ingatlan kezelés, kivitelezés és felújítás Budapesten. Rövid távú kiadás, okosotthon megoldások, takarítás és ingatlan tanácsadás.",
 		  "telephone": "+36301865215",
 		  "email": "info@stmanagement.hu",
-		  "priceRange": "$$",
 		  "paymentAccepted": "Készpénz, Banki átutalás",
 		  "currenciesAccepted": "HUF",
-		  "image": "https://stmanagement.hu/og-cover-1200x630.jpg",
 		  "logo": "https://stmanagement.hu/logo_black.PNG",
 		  "parentOrganization": { "@id": "https://stmanagement.hu/#organization" },
 		  "address": {
@@ -98,58 +95,120 @@
 			"@type": "OfferCatalog",
 			"name": "Ingatlan Szolgáltatások",
 			"itemListElement": [
-			  {
-				"@type": "Offer",
-				"itemOffered": {
-				  "@type": "Service",
-				  "name": "Rövid távú kiadás",
-				  "description": "Lakóingatlanok rövid távú, magas hozamú bérleményekké alakítása",
-				  "provider": { "@id": "https://stmanagement.hu/#localbusiness" },
-				  "areaServed": { "@type": "City", "name": "Budapest" }
+				{
+				  "@type": "Offer",
+				  "itemOffered": {
+					"@type": "Service",
+					"name": "Rövid távú kiadás",
+					"description": "Lakóingatlanok rövid távú, magas hozamú bérleményekké alakítása",
+					"provider": {
+					  "@id": "https://stmanagement.hu/#localbusiness"
+					},
+					"url": "https://stmanagement.hu/kezeles.html",
+					"areaServed": [
+					  {
+						"@type": "City",
+						"name": "Budapest"
+					  },
+					  {
+						"@type": "City",
+						"name": "Siófok"
+					  },
+					  {
+						"@type": "City",
+						"name": "Balatonalmádi"
+					  },
+					  {
+						"@type": "City",
+						"name": "Balatonfüred"
+					  },
+					  {
+						"@type": "City",
+						"name": "Tihany"
+					  },
+					  {
+						  "@type": "GeoCircle",
+						  "geoMidpoint": {
+							"@type": "GeoCoordinates",
+							"latitude": 46.9,
+							"longitude": 17.9
+						  },
+						  "geoRadius": {
+							"@type": "Distance",
+							"value": 30,
+							"unitCode": "KM"
+						  },
+						  "description": "Balaton környéke"
+						}
+					]
+				  }
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Kivitelezés és felújítás",
+						"description": "Ingatlanok teljes körű átalakítása és korszerűsítése",
+						"provider": {
+							"@id": "https://stmanagement.hu/#localbusiness"
+						},
+						"url": "https://stmanagement.hu/kivitelezes.html",
+						"areaServed": {
+							"@type": "City",
+							"name": "Budapest"
+						}
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Okosotthon megoldások",
+						"description": "Modern okostechnológiák telepítése és beállítása ingatlanokban",
+						"provider": {
+							"@id": "https://stmanagement.hu/#localbusiness"
+						},
+						"url": "https://stmanagement.hu/okosotthon.html",
+						"areaServed": {
+							"@type": "City",
+							"name": "Budapest"
+						}
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Takarítás és mosás",
+						"description": "Professzionális ingatlan takarító- és mosodai szolgáltatás",
+						"provider": {
+							"@id": "https://stmanagement.hu/#localbusiness"
+						},
+						"url": "https://stmanagement.hu/takaritas.html",
+						"areaServed": {
+							"@type": "City",
+							"name": "Budapest"
+						}
+					}
+				},
+				{
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Ingatlan tanácsadás",
+						"description": "Személyre szabott tanácsadás ingatlan befektetőknek és tulajdonosoknak",
+						"provider": {
+							"@id": "https://stmanagement.hu/#localbusiness"
+						},
+						"url": "https://stmanagement.hu/tanacsadas.html",
+						"areaServed": {
+							"@type": "City",
+							"name": "Budapest"
+						}
+					}
 				}
-			  },
-			  {
-				"@type": "Offer",
-				"itemOffered": {
-				  "@type": "Service",
-				  "name": "Kivitelezés és felújítás",
-				  "description": "Teljes körű átalakítás és korszerűsítés",
-				  "provider": { "@id": "https://stmanagement.hu/#localbusiness" },
-				  "areaServed": { "@type": "City", "name": "Budapest" }
-				}
-			  },
-			  {
-				"@type": "Offer",
-				"itemOffered": {
-				  "@type": "Service",
-				  "name": "Okosotthon megoldások",
-				  "description": "Modern okostechnológiák telepítése és beállítása",
-				  "provider": { "@id": "https://stmanagement.hu/#localbusiness" },
-				  "areaServed": { "@type": "City", "name": "Budapest" }
-				}
-			  },
-			  {
-				"@type": "Offer",
-				"itemOffered": {
-				  "@type": "Service",
-				  "name": "Takarítás és mosás",
-				  "description": "Professzionális takarító- és mosodai szolgáltatás",
-				  "provider": { "@id": "https://stmanagement.hu/#localbusiness" },
-				  "areaServed": { "@type": "City", "name": "Budapest" }
-				}
-			  },
-			  {
-				"@type": "Offer",
-				"itemOffered": {
-				  "@type": "Service",
-				  "name": "Ingatlan tanácsadás",
-				  "description": "Személyre szabott tanácsadás befektetőknek és tulajdonosoknak",
-				  "provider": { "@id": "https://stmanagement.hu/#localbusiness" },
-				  "areaServed": { "@type": "City", "name": "Budapest" }
-				}
-			  }
 			]
-		  }
+		}
 		},
 		{
 		  "@type": "WebSite",
@@ -230,7 +289,7 @@
 		}
 		
 		.diszes{
-			font-family: Bell MT;
+			font-family: Uncial Antiqua;
 		}
 		
 		#ign_kezeles,#ign_kivitelezes {
@@ -381,11 +440,7 @@
 			padding-top: 2vh;
 			color:white;
 			grid-template-rows: 20% 20% 20% 20% 20%;
-			background:
-				radial-gradient(1200px 600px at 20% 15%, rgba(120, 180, 255, 0.18), transparent 60%),
-				radial-gradient(1000px 520px at 85% 70%, rgba(120, 220, 170, 0.12), transparent 55%),
-				linear-gradient(180deg, #ffffff 0%, #f7f4ee 45%, #f1ece4 100%);
-			
+			background: linear-gradient(180deg, #F7EEE1 0%, #ECE0D0 100%);
 		}
 		
 		
@@ -727,6 +782,7 @@
 			border-radius: 5px;
 			font-size: 1rem;
 			width: 100%;
+			background: linear-gradient(180deg, #F7EEE1 0%, #ECE0D0 100%);
 		}
 		
 		.form-group textarea {
@@ -3520,7 +3576,7 @@
 						inditValtakozas();
 						initHover();
 					}
-					fomenu.style.background = 'linear-gradient(180deg, #fdfbf8 0%, #f3efe9 100%)';
+					fomenu.style.background = 'linear-gradient(180deg, #F2E6D2 0%, #E4D4BD 100%)';
 					logo.style.opacity=1;
 					nyelv.style.opacity=1;
 					cegnev.style.color='black';
